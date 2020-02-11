@@ -13,7 +13,7 @@
         }
         #avatar {
             border-radius: 50%;
-            align-items: center;
+            margin;
         }
         h1 {
             font-family: Montserrat;
@@ -44,18 +44,36 @@
         }
         ul, li, ol {
             font-family: open sans;
-            font-size: 15px;
+            font-size: 20px;
             color: #657ED4;
             text-align: center;
+        }
+        .button {
+            background-color: rgb(175, 175, 174);
+            color: rgb(49, 89, 218);
+            padding: 15px 30px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-family: open sans;
+            margin-left: 20px;            
+        }
+        #avatar-vmlf {
+            background: rgb(212, 210, 210)
+        }
+        #container {
+            width: 800px;
+            margin: auto;
         }
     </style>
 </head>
 <header>
     <h1 id="VMLF">VICTOR MATEUS LUCAS FERREIRA</h1>
 </header>
+    <div id="container"> 
     <h2 class="DS">Desenvolvedor de Software</h2>
-    <h3><a href="#SM">Sobre mim</a> | <a href="#HD">Habilidades Destacadas</a> | <a href="#AP">Alguns Projetos</a></h3><br><br>
-    <img id="avatar" src="/images/victormateus2.jpeg" alt="Foto de Victor Mateus"width="350px"><br>
+    <h3><a class="button" href="#SM">Sobre mim</a> | <a class="button" href="#HD">Habilidades Destacadas</a> | <a class="button" href="#AP">Alguns Projetos</a></h3><br><br>
+    <div id="avatar-vmlf"><img id="avatar" src="/images/victormateus2.jpeg" alt="Foto de Victor Mateus"width="350px"><br>
+    </div>
     <br><h2 id="SM">Sobre mim</h2>
     <p>Brasileiro, 39 anos, residente em Florianopolis, Santa Catarina - Brasil <br>
        Iniciou a carreira profissional como <em>designer</em>, foi projetista de produto por 
@@ -77,6 +95,7 @@
     <li>Indicador pavimentos TKE<br><img src="/images/tk.JPG" alt="Imagem indicador pavimentos ThyssenKrupp elevadores" width="200px"><br></li> 
     </ol>
     <a href="#VMLF">TOPO</a>
-</div>
+    </div>
+    </div>
 </body>
 </html>
