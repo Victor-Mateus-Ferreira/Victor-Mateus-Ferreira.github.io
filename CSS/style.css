@@ -5,10 +5,12 @@ body {
 #avatar {
     border-radius: 50%;
     width: 300px;
+    float: left;
+    margin-top: 40px;
 }
 h1 {
     font-family: Montserrat;
-    font-size: 45px;
+    font-size: 47px;
     color: #FED766;
     margin-top: 30px;            
 }
@@ -48,29 +50,30 @@ ul, li, ol {
     margin-left: center;            
 }
 #avatar-vmlf {
-    height: 100px;
+    /* height: 100px; */
 }
 #container {
     width: 850px;
     margin: auto;
 }
 #first-button {
-    margin-right: 80px;
+    margin-right: 9.7%;
 }
 #second-button {
-    margin-right: 80px;
+    margin-right: 9.7%;
 }
 #third-button {
-    
+    margin-right: 9.7%;
 }
 #position-buttons {
     margin-top: 80px;
+    width: 850;
 }
 #SM-position {
     width: 500px;
-    margin-left: 300px;
-    position: absolute;
-    top: 250px;
+    float: right;
+    /* position: absolute; */
+    /* top: 250px; */
 }
 #pro-ds {
     text-align: center;
