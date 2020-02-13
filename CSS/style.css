@@ -1,0 +1,81 @@
+
+body {
+    background-color: #1B1D1C;
+}
+#avatar {
+    border-radius: 50%;
+    width: 300px;
+    float: left;
+    margin-top: 40px;
+}
+h1 {
+    font-family: Montserrat;
+    font-size: 47px;
+    color: #FED766;
+    margin-top: 30px;            
+}
+h2 {
+    font-family: open sans;
+    font-size: 25px;
+    color: #FED766;
+    text-align: center;
+    margin: 10px 100px; 
+}
+.DS {
+    font-family: open sans;
+    font-size: 20px;
+    color: #FED766;
+    text-align: left;
+    margin: 10px 60px;        
+}
+p {
+    font-family: open sans;
+    font-size: 25px;
+    color: #657ED4;
+    text-align: justify;                               
+}
+ul, li, ol {
+    font-family: open sans;
+    font-size: 20px;
+    color: #657ED4;
+    text-align: center;
+}
+.button {
+    background-color: rgb(175, 175, 174);
+    color: rgb(49, 89, 218);
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: open sans;
+    margin-left: center;            
+}
+#avatar-vmlf {
+    /* height: 100px; */
+}
+#container {
+    width: 850px;
+    margin: auto;
+}
+#first-button {
+    margin-right: 9.7%;
+}
+#second-button {
+    margin-right: 9.7%;
+}
+#third-button {
+    margin-right: 9.7%;
+}
+#position-buttons {
+    margin-top: 80px;
+    width: 850;
+}
+#SM-position {
+    width: 500px;
+    float: right;
+    /* position: absolute; */
+    /* top: 250px; */
+}
+#pro-ds {
+    text-align: center;
+    font-size: 30px;
+}        
