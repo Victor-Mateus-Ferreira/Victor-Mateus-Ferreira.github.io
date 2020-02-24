@@ -61,9 +61,36 @@
         texto.innerHTML = "Exercicio 4.5 - JavaScript DOM"
         document.body.appendChild(texto);
         
+        // #2
         let divisor = document.createElement("div");
         divisor.className = "main-content";
         document.body.appendChild(divisor);
+
+        // #3
+        let divisorDois = document.createElement("div");
+        divisorDois.className = "center-content";
+        divisor.appendChild(divisorDois);
+
+        // #4 
+        let paragrafoUm = document.createElement("p");
+        paragrafoUm.innerHTML = "Texto aleatório";
+        divisorDois.appendChild(paragrafoUm);
+
+        // #5
+        let divisorTres = document.createElement("div");
+        divisorTres.className = "left-content";
+        divisor.appendChild(divisorTres);
+
+        // #6
+        let divisorQuatro = document.createElement("div");
+        divisorQuatro.className = "right-content";
+        divisor.appendChild(divisorQuatro);
+
+        // #7
+        let imagem = document.createElement("img");
+        imagem.src = "https://picsum.photos/200";
+        imagem.className = "small-image";
+        divisorTres.appendChild(imagem);
 
 
 
