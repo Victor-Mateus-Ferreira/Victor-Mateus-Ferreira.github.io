@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicio 1 - Cadastro de Curriculo</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <fieldset id="dados">
+        <legend>Dados Pessoais</legend>
+        <div class="linha">
+            <label for = "nome">NOME</label>
+            <input id="nome" type="text" maxlength="40" required="required">
+        </div class="linha">
+        <div class="linha">
+            <label for = "email">E-MAIL</label>
+            <input id="email" type="email" maxlength="50" required="required">
+        </div>
+        <div class="linha">
+            <label for = "cpf">CPF</label>
+            <input id="cpf" type="text" maxlength="11" required="required">
+        </div>
+        <div class="linha">
+            <label for = "endereco">ENDEREÇO</label>
+            <input id="endereco" type="text" maxlength="11" required="required">
+        </div>
+        <div class="linha">
+            <label for = "cidade">CIDADE</label>
+            <input id="cidade" type="text" maxlength="28" required="required">
+        </div>
+        <div class="linha">
+            <label for="estados">ESTADO</label>
+            <select id="estados"></select>
+        </div>
+        <div class="linha">
+            <label for = "cidade">
+            <input id="cidade" type="text" maxlength="28" required="required">CIDADE</label>
+        <div class="linha">
+            <span>Tipo</span>
+        <label for="casa">
+            <input type="radio" id="casa"required="required">casa</label>
+        <label for="apartamento">
+            <input type="radio" id="apartamento"required="required">apartamento</label>
+
+    </fieldset>
+
+    <fieldset>
+    <legend>Dados Profissionais</legend>
+        <label for id="resume">Resumo do Curriculo</label><textarea id="resume" maxlength="1000" required="requires"></textarea>
+        <div class="linha">
+            <label for = "cargo">CARGO</label>
+            <input id="cargo" type="text" maxlength="40" required="required">
+        </div>
+        <div class="linha">
+            <label for = "desc-cargo">DESCRIÇÃO DO CARGO</label>
+            <input id="desc-cargo" type="text" maxlength="500" required="required">
+        </div>
+        <div class="linha">
+            <label for = "data-inicio">DATA DE INICIO</label>
+            <input id="data-inicio" type="text" maxlength="11" required="required">
+        </div>
+        <button id="check">check</button>
+    </fieldset>
+
+    <button id="clear">Limpa</button>
+</body>
+<script src="script.js"></script>
+</html>
